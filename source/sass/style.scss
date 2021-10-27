@@ -1,0 +1,22 @@
+.img-pux {
+    width: 100px;
+    display: flex;
+    background: url("../img/1625620157_11-phonoteka-org-p-pukhlya-art-krasivo-12.jpg") no-repeat;
+    background-color: olivedrab;
+}
+.p-color {
+}
+
+span {
+    font-size: 20px;
+    @media (min-width: 768px) {
+        font-size: 39px;
+    }
+}
+
+h1 {
+    font-size: 20px;
+    @media (min-width: 768px) {
+        font-size: 39px;
+    }
+}
