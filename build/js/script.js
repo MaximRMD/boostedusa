@@ -1,2 +1,2 @@
 
-@@include("alert.js")
+@include("alert.js")
