@@ -12,6 +12,16 @@
     font-style: normal;
 }
 
+*,
+::after,
+::before {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+}
+
 .page {
     font-family: "Roboto", "Arial", sans-serif;
     height: 100%;

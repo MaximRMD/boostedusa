@@ -10,6 +10,14 @@
   font-weight: 700;
   font-style: normal; }
 
+*,
+::after,
+::before {
+  box-sizing: inherit; }
+
+html {
+  box-sizing: border-box; }
+
 .page {
   font-family: "Roboto", "Arial", sans-serif;
   height: 100%; }
@@ -32,12 +40,14 @@ html {
   line-height: 15px;
   margin-top: 0;
   padding-top: 7px;
-  padding-bottom: 7px; }
+  padding-bottom: 7px;
+  letter-spacing: 2px; }
 
 .header-block__navline {
   display: flex;
   align-items: center;
-  justify-content: space-between; }
+  justify-content: space-between;
+  margin-bottom: 23px; }
 
 .header-block__nav-list {
   display: flex;
@@ -47,7 +57,8 @@ html {
 
 .header-block__nav-link {
   color: #000000;
-  text-decoration: none; }
+  text-decoration: none;
+  text-transform: uppercase; }
 
 .header-block__nav-link {
   color: #000000;
@@ -58,4 +69,55 @@ html {
   margin-right: 22px; }
 
 .header-block__img {
-  width: 100%; }
+  background-image: url("/img/header_img_fon@1x.jpg");
+  width: 100%;
+  background-color: darkgrey; }
+
+.header-block__heading {
+  font-size: 44px;
+  line-height: 51px;
+  margin: 0;
+  margin-bottom: 14px;
+  margin-left: auto;
+  margin-right: auto;
+  inline-size: -webkit-fit-content;
+  inline-size: -moz-fit-content;
+  inline-size: fit-content; }
+
+.header-block__subtitle {
+  font-size: 15px;
+  line-height: 19px;
+  letter-spacing: 1px;
+  margin: 0;
+  margin-bottom: 22px;
+  margin-left: auto;
+  margin-right: auto;
+  inline-size: -webkit-fit-content;
+  inline-size: -moz-fit-content;
+  inline-size: fit-content; }
+
+.header-block__button {
+  text-decoration: none;
+  border: 1px solid #ff4a32;
+  border-radius: 35px;
+  background-color: #ff4a32;
+  padding: 5px 37px 5px 37px;
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 22px;
+  display: inline-block; }
+
+.header-block__main--button {
+  inline-size: -webkit-fit-content;
+  inline-size: -moz-fit-content;
+  inline-size: fit-content;
+  margin-left: auto;
+  margin-right: auto; }
+
+.header-block__svg {
+  margin-right: 122px;
+  margin-top: 18px;
+  margin-bottom: 34px; }
+
+.header-block__partners {
+  background-color: #000000; }
