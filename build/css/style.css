@@ -104,17 +104,19 @@ html {
   inline-size: fit-content;
   padding-top: 0; }
 
-.header-block__button {
+.header-block__link {
+  padding: 5px 37px 5px 37px;
+  font-size: 14px;
+  line-height: 22px;
+  margin-bottom: 618px; }
+
+.button {
   text-decoration: none;
   border: 1px solid #ff4a32;
   border-radius: 35px;
   background-color: #ff4a32;
-  padding: 5px 37px 5px 37px;
   color: #ffffff;
-  font-size: 14px;
-  line-height: 22px;
-  display: inline-block;
-  margin-bottom: 618px; }
+  display: inline-block; }
 
 .header-block__main--button {
   inline-size: -webkit-fit-content;
@@ -186,3 +188,112 @@ html {
 
 .color {
   color: #ffffff; }
+
+.catalog-shop {
+  background-image: url("/img/electric_skateboards@1x.png");
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  @media screen and (-webkit-min-device-pixel-ratio: 2), screen and (min-resolution: 2dppx) {
+    .catalog-shop {
+      background-image: url("/img/electric_skateboards@2x.png"); } }
+
+.catalog-shop {
+  text-align: center;
+  margin-bottom: 44px; }
+
+.catalog-shop__paragraph {
+  padding-top: 44px;
+  margin-bottom: 11px;
+  font-size: 15px;
+  line-height: 19px;
+  letter-spacing: 1px; }
+
+.catalog-shop__title {
+  margin: 0;
+  margin-bottom: 15px;
+  font-size: 45px;
+  line-height: 51px;
+  font-weight: 700; }
+
+.catalog-shop__subtitle {
+  margin: 0;
+  margin-bottom: 20px;
+  max-width: 488px;
+  font-size: 15px;
+  line-height: 19px;
+  letter-spacing: 1px;
+  margin-right: auto;
+  margin-left: auto; }
+
+.catalog-shop__link {
+  padding: 5px 66px 5px 66px;
+  margin-bottom: 505px; }
+
+.catalog-shop__img {
+  margin-right: 20px; }
+
+.catalog-shop__img:nth-last-child(1) {
+  margin-right: 40px; }
+
+.catalog-shop__rev {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 45px; }
+
+.catalog-shop__revtitle {
+  font-size: 32px;
+  line-height: 38px;
+  margin: 0;
+  margin-bottom: 21px; }
+
+.catalog-shop__revparagraph {
+  max-width: 339px;
+  font-size: 15px;
+  line-height: 22px;
+  margin: 0;
+  margin-bottom: 18px; }
+
+.catalog-shop__revlink {
+  padding: 5px 16px 5px 16px; }
+
+.catalog-shop__stealth--img {
+  padding: 200px 120px 200px 120px;
+  background-image: url("../img/sketboard@1x.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; }
+  @media screen and (-webkit-min-device-pixel-ratio: 2), screen and (min-resolution: 2dppx) {
+    .catalog-shop__stealth--img {
+      background-image: url("../img/sketboard@2x.jpg"); } }
+
+.catalog-shop__title--variety {
+  font-size: 25px;
+  line-height: 30px; }
+
+.catalog-shop__subtitle--variety {
+  font-size: 18px;
+  line-height: 23px; }
+
+.catalog-shop__plus--img {
+  padding: 200px 120px 200px 120px;
+  background-image: url("../img/sketboard_men@1x.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; }
+  @media screen and (-webkit-min-device-pixel-ratio: 2), screen and (min-resolution: 2dppx) {
+    .catalog-shop__plus--img {
+      background-image: url("../img/sketboard_men@2x.jpg"); } }
+
+.catalog-shop__mini--img {
+  padding: 200px 120px 200px 120px;
+  background-image: url("../img/friends_skate@1x.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; }
+  @media screen and (-webkit-min-device-pixel-ratio: 2), screen and (min-resolution: 2dppx) {
+    .catalog-shop__mini--img {
+      background-image: url("../img/friends_skate@2x.jpg"); } }
+
+.catalog-shop__variety {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  text-align: center; }
