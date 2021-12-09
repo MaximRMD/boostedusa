@@ -383,6 +383,7 @@ html {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
+    justify-content: center;
 }
 
 .catalog-list__item {
@@ -396,4 +397,39 @@ html {
     box-shadow: 2px 0px 10px rgba(41, 44, 61, 0.34);
     border-radius: 0px;
     margin-bottom: 28px;
+}
+
+.opportunities {
+    background-color: $black;
+}
+
+.opportunities__title {
+    color: $white;
+    font-size: 31px;
+    line-height: 36px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.opportunities__list {
+    text-decoration: none;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.opportunities__description {
+    margin: 0;
+    color: $white;
+    max-width: 270px;
+}
+
+.opportunities__item {
+    text-align: center;
+    margin-right: 72px;
+    padding: 35px 0px 51px 0px;
+}
+.opportunities__item:nth-last-child(1) {
+    margin-right: 0;
 }
