@@ -387,6 +387,7 @@ html {
 .opportunities__list {
   text-decoration: none;
   padding: 0;
+  margin: 0;
   display: flex;
   flex-direction: row;
   justify-content: center; }
@@ -403,3 +404,55 @@ html {
 
 .opportunities__item:nth-last-child(1) {
   margin-right: 0; }
+
+.footer-section__title {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+  margin-bottom: 10px; }
+
+.footer-section__about {
+  font-size: 19px;
+  line-height: 30px;
+  font-weight: 400;
+  margin-bottom: 12px; }
+
+.footer-section__list {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+.footer-section__item {
+  font-size: 13px;
+  line-height: 21px; }
+
+.footer-section__description {
+  font-size: 14px;
+  line-height: 21px;
+  max-width: 367px;
+  margin-bottom: 19px; }
+
+.footer-section {
+  display: flex;
+  background-color: #f7f7f7;
+  margin-bottom: 19px; }
+
+.footer-section__logo {
+  margin: 50px 240px 130px 145px; }
+
+.footer-section__explore {
+  margin-right: 256px; }
+
+.payment__orange {
+  color: #ff4a32; }
+
+.payment {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.payment__paragraph {
+  margin-right: 446px; }
+
+.payment {
+  margin-bottom: 32px; }
