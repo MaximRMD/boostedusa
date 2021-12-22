@@ -59,21 +59,25 @@ html {
 
 .header-block__nav-link {
   color: #000000;
-  text-decoration: none;
-  text-transform: uppercase; }
-
-.header-block__nav-link {
-  color: #000000;
   font-size: 14px;
   line-height: 21px;
   text-decoration: none;
   letter-spacing: 1px;
-  margin-right: 22px; }
+  margin-right: 22px;
+  color: #000000;
+  text-decoration: none;
+  text-transform: uppercase; }
+  .header-block__nav-link:hover {
+    color: #ff4a32;
+    transition: 0.25s; }
+  .header-block__nav-link:active {
+    color: #b64132; }
 
 .header-block__users {
   margin-right: 25px; }
 
 .header-block__img {
+  position: relative;
   background-image: url("/img/header_img_fon@1x.jpg");
   width: 100%;
   background-color: darkgrey;
@@ -113,11 +117,17 @@ html {
 
 .button {
   text-decoration: none;
-  border: 1px solid #ff4a32;
   border-radius: 35px;
   background-color: #ff4a32;
   color: #ffffff;
   display: inline-block; }
+  .button:hover {
+    transition: 0.3s;
+    box-shadow: 0 0 10px #ff4a32, 0 0 40px #ff4a32; }
+  .button:active {
+    background-color: #b64132;
+    color: #c9c9c9;
+    box-shadow: inset 0px 3px 2px rgba(41, 44, 61, 0.34); }
 
 .header-block__main--button {
   inline-size: -webkit-fit-content;
@@ -361,7 +371,13 @@ html {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  justify-content: center; }
+  justify-content: center;
+  inline-size: -webkit-fit-content;
+  inline-size: -moz-fit-content;
+  inline-size: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0; }
 
 .catalog-list__item {
   margin-right: 20px;
@@ -424,7 +440,11 @@ html {
 
 .footer-section__item {
   font-size: 13px;
-  line-height: 21px; }
+  line-height: 21px;
+  cursor: pointer; }
+  .footer-section__item:hover {
+    color: #b64132;
+    transition: 0.25s; }
 
 .footer-section__description {
   font-size: 14px;
@@ -434,11 +454,13 @@ html {
 
 .footer-section {
   display: flex;
-  background-color: #f7f7f7;
+  background-color: #c9c9c9;
   margin-bottom: 19px; }
 
 .footer-section__logo {
   margin: 50px 240px 130px 145px; }
+  .footer-section__logo:hover {
+    fill: #ff4a32; }
 
 .footer-section__explore {
   margin-right: 256px; }
@@ -456,3 +478,9 @@ html {
 
 .payment {
   margin-bottom: 32px; }
+
+.payment__icon {
+  cursor: pointer; }
+
+.header-block__logo {
+  fill: #b64132; }
