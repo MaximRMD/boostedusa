@@ -1,1 +1,1 @@
-# boostedusa иримрпагпм
+# boostedusa
